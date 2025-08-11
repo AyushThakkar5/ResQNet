@@ -9,10 +9,14 @@ import { AuthProvider } from "@/components/auth-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "HelpConnect - Help When It Matters Most",
+  title: "ResQNet - Help When It Matters Most",
   description: "Community SOS & Help Platform for emergency assistance, volunteering, and donations",
-    generator: 'v0.dev'
+  generator: "v0.dev",
+  icons: {
+    icon: "/Logo.jpeg", // path to your logo in the public folder
+  },
 }
+
 
 export default function RootLayout({
   children,
