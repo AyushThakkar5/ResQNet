@@ -1,3 +1,5 @@
+"use client";
+import { createContext } from 'react';
 import { Header } from "@/components/header"
 import { AdminStats } from "@/components/admin-stats"
 import { AlertManagement } from "@/components/alert-management"
